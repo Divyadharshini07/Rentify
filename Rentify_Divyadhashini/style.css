@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+    display: inline;
+}
+nav {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+}
+nav h1, nav ul {
+    margin: 15px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+    position: top;
+    left: 0px;
+    top: 0px;
+    width: 1366px;
+}
+img{
+    width: 1410px;
+}
+.glass {
+    backdrop-filter: blur(10px);
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 50px;
+  }
+.type{
+    text-align: right;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+p:hover{
+    color: white;
+}
+.two{
+    text-align: center;
+    padding-right: 80px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 620px;   
+}
+.container{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+  }
+.ch{
+    position: absolute;
+    top:-30px;
+    display: flex;
+    padding-top: 110px;
+    padding-left: 390px;
+    padding-right: 100px;
+  }
+  
+/*.kl{
+    position: absolute;
+    top:-600px;
+    margin-left: 100px;
+    left: 200px;
+  }*/
+.bl{
+    position: absolute;
+    display: flex;
+}
